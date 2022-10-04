@@ -1,7 +1,7 @@
 import socket
 import time
 import datetime    
-from a import calcular_hash
+from hash import calcular_hash
 import threading
 import queue
 lock = threading.Lock()

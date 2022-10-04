@@ -3,7 +3,7 @@ import sys
 import time
 from _thread import *
 import threading
-from a import calcular_hash
+from hash import calcular_hash
 def leer_archivo(file_name,sock):
     file = open(file_name, "w")
     # Leemos de a 1024 bytes
